@@ -1,4 +1,4 @@
-FROM ubi7
+FROM registry.access.redhat.com/ubi7
 
 RUN yum update && \
     yum install -y httpd && \
