@@ -2,8 +2,8 @@
 
 echo "Before assembling the image"
 
-mkdir $HOME/vendor
-touch $HOME/vendor/{1,2,3}
+# mkdir $HOME/vendor
+# touch $HOME/vendor/{1,2,3}
 
 /usr/libexec/s2i/assemble
 
