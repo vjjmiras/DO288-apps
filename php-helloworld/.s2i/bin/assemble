@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo "Before assembling the image"
+
+/usr/libexec/s2i/assemble
+
+echo "After assembling the image"
